@@ -6,12 +6,6 @@
   <title>Issues</title>
   <link rel="stylesheet" href="reports.css">
   <style>
-    h1 { font-size: 4rem; line-height: 0.92; }
-    h2 { font-size: 2.2rem; line-height: 1; }
-    h3 { font-size: 1.5rem; }
-    p, li, td, th, dd, figcaption, .lede { font-size: 1rem; }
-    th { overflow-wrap: normal; }
-    
     .filters { display: flex; flex-wrap: wrap; gap: 0.8rem 1.2rem; margin: 0 0 1rem; }
     .filters label { font-family: "Barlow Condensed", sans-serif; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; font-size: 0.85rem; }
     .filters select { display: block; margin-top: 0.25rem; font-family: "Source Serif 4", Palatino, Georgia, serif; font-size: 1rem; letter-spacing: 0; text-transform: none; color: var(--ink); background: #fff; border: 1px solid var(--ink); padding: 0.3rem 0.4rem; }
@@ -21,7 +15,6 @@
     .bars .fill { display: block; height: 100%; background: var(--brick-deep); }
     .bars .num { font-variant-numeric: tabular-nums; text-align: right; }
     @media (max-width: 760px) { .bars li { grid-template-columns: 1fr auto; } .bars .track { grid-column: 1 / -1; } }
-
   </style>
 </head>
 <body>
@@ -80,6 +73,7 @@
         <div><dt>Ingested</dt><dd>13 Oct 2026</dd></div>
       </dl>
     </header>
+    <div class="plate plate-blueprints-bottom" aria-hidden="true"></div>
     <main id="report">
       <nav class="subsheets pages" aria-label="Report pages">
         <a href="08-8-executive.html">Executive</a>
