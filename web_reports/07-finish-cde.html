@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Report 07 — Next step: finish CDE setup</title>
+  <link rel="stylesheet" href="reports.css">
+  <style>
+    h1 { font-size: 4rem; line-height: 0.92; }
+    h2 { font-size: 2.2rem; line-height: 1; }
+    h3 { font-size: 1.5rem; }
+    p, li { font-size: 1rem; }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#content">Skip to report</a>
+  <article class="sheet">
+    <div class="course" aria-hidden="true"></div>
+        <nav class="sheets" aria-label="Reports">
+      <a href="index.html">Index</a>
+      <a href="01-baseline-status.html">Baseline</a>
+      <a href="02-forma-project-structure.html">Project structure</a>
+      <a href="03-project-files-register.html">File register</a>
+      <a href="04-s102-forma-inspection.html">S102 inspection</a>
+      <a href="05-structural-model.html">Structural model</a>
+      <a href="06-issue-workbook.html">Issue workbook</a>
+      <a href="07-finish-cde.html" aria-current="page">CDE setup</a>
+      <a href="08-path-to-power-bi.html">Power BI</a>
+    </nav>
+    <header class="titleblock">
+      <svg class="elevation" viewBox="0 0 168 210" aria-hidden="true">
+        <g fill="none" stroke="currentColor" stroke-linejoin="miter" stroke-linecap="square">
+          <path class="datum" stroke-width="1.6" d="M8 192 H160"/>
+          <path class="outline" stroke-width="1.7" d="M48 18 H140 V192 H48 Z"/>
+          <path class="outline" stroke-width="1.7" d="M26 78 H48 V192 H26 Z"/>
+          <path class="stairs" stroke-width="1.3" d="M30 90 H44 L30 104 H44 L30 118 H44 L30 132 H44 L30 146 H44 L30 160 H44 L30 174 H44"/>
+          <path class="floors" stroke-width="1.15" d="M48 40 H140 M48 62 H140 M48 84 H140 M48 106 H140 M48 128 H140 M48 150 H140 M48 172 H140 M94 18 V192"/>
+          <g class="openings" stroke-width="1.15">
+            <rect x="58" y="46" width="14" height="10"/>
+            <rect x="78" y="46" width="12" height="10"/>
+            <rect x="112" y="46" width="16" height="10"/>
+            <rect x="58" y="68" width="14" height="10"/>
+            <rect x="78" y="68" width="12" height="10"/>
+            <rect x="112" y="68" width="16" height="10"/>
+            <rect x="58" y="112" width="14" height="10"/>
+            <rect x="78" y="112" width="12" height="10"/>
+            <rect x="112" y="112" width="16" height="10"/>
+            <rect x="58" y="156" width="14" height="10"/>
+            <rect x="78" y="156" width="12" height="10"/>
+            <rect x="112" y="156" width="16" height="10"/>
+          </g>
+        </g>
+      </svg>
+      <div class="title-copy">
+        <h1>Next step: finish CDE setup</h1>
+      </div>
+      <dl class="block">
+        <div><dt>Sheet</dt><dd>07</dd></div>
+        <div><dt>Date</dt><dd>13 Oct 2026</dd></div>
+        <div><dt>Status</dt><dd>S102 done</dd></div>
+        <div><dt>Step</dt><dd>−7</dd></div>
+      </dl>
+    </header>
+    <main id="content">
+      <div class="note-block">
+        <p>The next step stays inside workflow step −7. It records what Forma actually shows for the 14 uploaded files. S102 preview, version, and the review path are now in <a href="04-s102-forma-inspection.html">Report 04</a>. The other files still need rows. This step does not move the set to Shared, Published, or tender, and it does not start Python, SQL, or Power BI.</p>
+      </div>
+
+      <h2>1. Already done</h2>
+      <ul>
+        <li>Snowdon Towers is open in Forma Data Management.</li>
+        <li><code>Project Files</code> contains <code>01_Design Files</code>, <code>02_Drawings</code>, <code>03_Models</code>, <code>04_Reports</code>, and <code>05_Contracts</code>.</li>
+        <li>The local tree behind that upload is read in Report 03.</li>
+      </ul>
+
+      <h2>2. Work sequence</h2>
+      <ol class="steps">
+        <li>
+          <strong>Confirm each file in Forma.</strong>
+          Open the five folders. Check that the 14 names in Report 03 are present. Preview PDFs where the viewer allows it. Note anything the trial account hides or refuses.
+        </li>
+        <li>
+          <strong>Write the document register from the screen, one row per file.</strong>
+          Use the columns below. Copy only values Forma or the file shows. Leave revision, suitability, and review status blank when they are absent.
+        </li>
+        <li>
+          <strong>Inspect one file for versions and review.</strong>
+          Use <code>S102-Main Level.pdf</code>. Open file details and version history. If the account allows a comment, label it as a practice comment. A practice comment is a learning record. It is not an engineering approval and it does not change the workflow step to −4.
+        </li>
+        <li>
+          <strong>Record which controls exist.</strong>
+          For permissions, attributes, versions, reviews, issues, and export, write one of: available and used, available and not used, or absent in this trial.
+        </li>
+        <li>
+          <strong>Stop at the register.</strong>
+          When the register and the capability notes are saved, step −7 can be closed. Export, cleaning, and reporting are Report 08.
+        </li>
+      </ol>
+
+      <h2>3. Register columns</h2>
+      <div class="schedule">
+        <table>
+          <thead>
+            <tr><th>Column</th><th>Rule for the first pass</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Practice ID</td><td>Assigned locally, for example ST-S-102 for the S102 PDF. This ID is ours. It is not a Forma URN unless Forma displays one and we copy it.</td></tr>
+            <tr><td>File name</td><td>Exact name in Forma.</td></tr>
+            <tr><td>Folder</td><td>One of the five type folders.</td></tr>
+            <tr><td>Type</td><td>PDF, DWG, RVT, XLSX, or DOCX.</td></tr>
+            <tr><td>Discipline</td><td>Structural for the S-series drawings and the RVT, from the file names. Other files: record the discipline only when the file or Forma states it.</td></tr>
+            <tr><td>Uploader and upload date</td><td>From Forma file details.</td></tr>
+            <tr><td>Version</td><td>The version number Forma shows.</td></tr>
+            <tr><td>Revision</td><td>Blank until a revision designation is visible.</td></tr>
+            <tr><td>Suitability</td><td>Blank until a suitability code is visible.</td></tr>
+            <tr><td>Review status</td><td>Blank unless a real review record exists. A practice comment stays in the notes column.</td></tr>
+            <tr><td>Notes</td><td>Trial limits, preview result, and any practice comment.</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>4. Drawing names to register first</h2>
+      <div class="schedule">
+        <table>
+          <thead>
+            <tr><th>Practice ID</th><th>File</th><th>Type</th><th>Discipline</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>ST-S-102</td><td>S102-Main Level.pdf</td><td>PDF</td><td>Structural</td></tr>
+            <tr><td>ST-S-103</td><td>S103-Second Level.pdf</td><td>PDF</td><td>Structural</td></tr>
+            <tr><td>ST-S-107</td><td>S107-Roof.pdf</td><td>PDF</td><td>Structural</td></tr>
+            <tr><td>ST-S-108</td><td>S108-Stair Towers.pdf</td><td>PDF</td><td>Structural</td></tr>
+            <tr><td>ST-S-600</td><td>S600-Details.pdf</td><td>PDF</td><td>Structural</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="note">The multipage PDF, five DWGs, the RVT, the issue workbook, and the subcontract agreement still need their own rows. The DWG names use spaces and hyphens (<code>S102 - Main Level.dwg</code>) and are separate documents from the PDFs.</p>
+
+      <h2>5. Close this step when</h2>
+      <ul>
+        <li>All 14 Forma rows are in the register, with blanks left blank.</li>
+        <li>S102 version and review options are described from the screen.</li>
+        <li>A short note lists what the trial account allowed.</li>
+        <li>No file has been given an invented approval, revision code, or suitability.</li>
+      </ul>
+
+      <footer>
+        <span>Snowdon Towers · Report 07 · S102 is in Report 04. The folder tree is in Report 02. The file list is in Report 03.</span>
+        <a href="08-path-to-power-bi.html">Next report: path to Power BI</a>
+      </footer>
+    </main>
+    <div class="course course-foot" aria-hidden="true"></div>
+  </article>
+</body>
+</html>

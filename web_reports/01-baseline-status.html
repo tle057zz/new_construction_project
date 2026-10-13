@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Report 01 — Baseline status</title>
+  <link rel="stylesheet" href="reports.css">
+  <style>
+    h1 { font-size: 4rem; line-height: 0.92; }
+    h2 { font-size: 2.2rem; line-height: 1; }
+    h3 { font-size: 1.5rem; }
+    p, li, td, th, dd, figcaption { font-size: 1rem; }
+    th { overflow-wrap: normal; }
+    @media (max-width: 760px) {
+      table.path thead {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+        clip: rect(0 0 0 0);
+      }
+      table.path, table.path tbody, table.path tr, table.path td { display: block; width: auto; }
+      table.path tr { padding: 0.45rem 0 0.65rem; border-bottom: 1px solid #241910; }
+      table.path td { border: 0; padding: 0.12rem 0; }
+      table.path td::before {
+        content: attr(data-label);
+        display: block;
+        font-family: "Barlow Condensed", sans-serif;
+        font-weight: 600;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+      }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#content">Skip to report</a>
+  <article class="sheet">
+    <div class="course" aria-hidden="true"></div>
+        <nav class="sheets" aria-label="Reports">
+      <a href="index.html">Index</a>
+      <a href="01-baseline-status.html" aria-current="page">Baseline</a>
+      <a href="02-forma-project-structure.html">Project structure</a>
+      <a href="03-project-files-register.html">File register</a>
+      <a href="04-s102-forma-inspection.html">S102 inspection</a>
+      <a href="05-structural-model.html">Structural model</a>
+      <a href="06-issue-workbook.html">Issue workbook</a>
+      <a href="07-finish-cde.html">CDE setup</a>
+      <a href="08-path-to-power-bi.html">Power BI</a>
+    </nav>
+    <header class="titleblock">
+      <svg class="elevation" viewBox="0 0 168 210" aria-hidden="true">
+        <g fill="none" stroke="currentColor" stroke-linejoin="miter" stroke-linecap="square">
+          <path class="datum" stroke-width="1.6" d="M8 192 H160"/>
+          <path class="outline" stroke-width="1.7" d="M48 18 H140 V192 H48 Z"/>
+          <path class="outline" stroke-width="1.7" d="M26 78 H48 V192 H26 Z"/>
+          <path class="stairs" stroke-width="1.3" d="M30 90 H44 L30 104 H44 L30 118 H44 L30 132 H44 L30 146 H44 L30 160 H44 L30 174 H44"/>
+          <path class="floors" stroke-width="1.15" d="M48 40 H140 M48 62 H140 M48 84 H140 M48 106 H140 M48 128 H140 M48 150 H140 M48 172 H140 M94 18 V192"/>
+          <g class="openings" stroke-width="1.15">
+            <rect x="58" y="46" width="14" height="10"/>
+            <rect x="78" y="46" width="12" height="10"/>
+            <rect x="112" y="46" width="16" height="10"/>
+            <rect x="58" y="68" width="14" height="10"/>
+            <rect x="78" y="68" width="12" height="10"/>
+            <rect x="112" y="68" width="16" height="10"/>
+            <rect x="58" y="112" width="14" height="10"/>
+            <rect x="78" y="112" width="12" height="10"/>
+            <rect x="112" y="112" width="16" height="10"/>
+            <rect x="58" y="156" width="14" height="10"/>
+            <rect x="78" y="156" width="12" height="10"/>
+            <rect x="112" y="156" width="16" height="10"/>
+          </g>
+        </g>
+      </svg>
+      <div class="title-copy">
+        <h1>Baseline status</h1>
+      </div>
+      <dl class="block">
+        <div><dt>Sheet</dt><dd>01</dd></div>
+        <div><dt>Date</dt><dd>13 Oct 2026</dd></div>
+        <div><dt>Files</dt><dd>14</dd></div>
+        <div><dt>Step</dt><dd>−7</dd></div>
+      </dl>
+    </header>
+    <main id="content">
+      <div class="note-block">
+        <p><strong>Current step: −7, Project requirements and CDE setup.</strong> The Project Files tree is in Autodesk Forma Data Management on Construction: Sample Project – Snowdon Towers. Folder structure and file placement are done. Metadata, permissions, user groups, and a controlled document workflow are still open inside this step.</p>
+      </div>
+
+      <h2>1. What this baseline records</h2>
+      <p>This report freezes the position before the next project step. The local folder was listed on 13 October 2026 and the same five folders were uploaded under Forma <em>Project Files</em>.</p>
+      <ul>
+        <li>Platform: Autodesk Forma, Data Management, Files.</li>
+        <li>Project: Construction: Sample Project – Snowdon Towers.</li>
+        <li>Local source: <code>Project Files/</code> and <code>Project Files_2026-10-13_01-27-04pm.zip</code>.</li>
+        <li>Source file count: 14 files, about 34.4 MB, across five type folders.</li>
+      </ul>
+      <p class="note">The five folders group files by type. They are a practice filing structure. They are not an ISO 19650 state model of Work in Progress, Shared, Published, and Archived.</p>
+
+      <h2>2. Position on the workflow</h2>
+      <p>The two charts below are the sequence this baseline is read against. This practice project is on the first chart, at step −7. Power BI is step 04 on the second chart.</p>
+      <figure>
+        <img src="figures/workflow-cde-to-tender.png" alt="Workflow chart from step −7, Project requirements and CDE setup, through step −1, Tender RFIs registered and answered.">
+        <figcaption>Steps −7 to −1. CDE setup, design, sharing, tender issue, procurement, and tender RFIs.</figcaption>
+      </figure>
+      <figure>
+        <img src="figures/workflow-rfi-to-reporting.png" alt="Workflow chart from step 0, Public RFI register published as Excel, through step 07, Semantic search and RFI AI copilot, with steps 05 to 07 marked planned.">
+        <figcaption>Steps 0 to 07. The public RFI workbook, raw data, Python, SQL, and Power BI, then the planned analytics steps.</figcaption>
+      </figure>
+      <div class="schedule">
+        <table class="steps">
+          <thead>
+            <tr><th>Step</th><th>Name</th><th>Position at this baseline</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>−7</td><td>Project requirements and CDE setup</td><td>In progress. Files are in Forma. Register, permissions, and workflow controls are still to do.</td></tr>
+            <tr><td>−6</td><td>Site planning and initial design</td><td>Sample drawings and a model are present as content. This practice project has not run a site-planning activity.</td></tr>
+            <tr><td>−5</td><td>Design work in progress</td><td>Same sample content. No authoring session has been recorded.</td></tr>
+            <tr><td>−4 to −1</td><td>Share, authorise, procure, answer tender RFIs</td><td>No review, approval, or procurement action is recorded.</td></tr>
+            <tr><td>0 to 04</td><td>Public RFI Excel through Power BI</td><td>Later, and on the analytics path in Report 08. Power BI has not started.</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>3. Where the records sit</h2>
+      <p>The Forma shell is <a href="02-forma-project-structure.html">Report 02</a>. The fourteen files are read in <a href="03-project-files-register.html">Report 03</a>. S102, the one sheet opened on screen, is <a href="04-s102-forma-inspection.html">Report 04</a>. The structural model is <a href="05-structural-model.html">Report 05</a>.</p>
+      <p>The issue workbook, the steps that produce it, and the 289-row profile are <a href="06-issue-workbook.html">Report 06</a>. Finishing CDE setup is <a href="07-finish-cde.html">Report 07</a>. Power BI is <a href="08-path-to-power-bi.html">Report 08</a>, and it stays later.</p>
+
+      <h2>4. Held for the next step</h2>
+      <ul>
+        <li>Forma file-detail screenshots: version, uploader, attributes, and preview.</li>
+        <li>A filled document register. Revision and suitability stay blank until the file or Forma shows them.</li>
+        <li>A Files log export, if the account provides one.</li>
+        <li>Any copy of the workbook into an analytics <code>data/raw</code> folder. The workbook in <code>04_Reports</code> remains the source.</li>
+      </ul>
+
+      <footer>
+        <span>Snowdon Towers · Report 01 · Position on 13 October 2026. Step −7 is in progress.</span>
+        <a href="02-forma-project-structure.html">Next report: project structure</a>
+      </footer>
+    </main>
+    <div class="course course-foot" aria-hidden="true"></div>
+  </article>
+</body>
+</html>

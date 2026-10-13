@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Report 08 — Path to Power BI</title>
+  <link rel="stylesheet" href="reports.css">
+  <style>
+    h1 { font-size: 4rem; line-height: 0.92; }
+    h2 { font-size: 2.2rem; line-height: 1; }
+    h3 { font-size: 1.5rem; }
+    p, li { font-size: 1rem; }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#content">Skip to report</a>
+  <article class="sheet">
+    <div class="course" aria-hidden="true"></div>
+        <nav class="sheets" aria-label="Reports">
+      <a href="index.html">Index</a>
+      <a href="01-baseline-status.html">Baseline</a>
+      <a href="02-forma-project-structure.html">Project structure</a>
+      <a href="03-project-files-register.html">File register</a>
+      <a href="04-s102-forma-inspection.html">S102 inspection</a>
+      <a href="05-structural-model.html">Structural model</a>
+      <a href="06-issue-workbook.html">Issue workbook</a>
+      <a href="07-finish-cde.html">CDE setup</a>
+      <a href="08-path-to-power-bi.html" aria-current="page">Power BI</a>
+    </nav>
+    <header class="titleblock">
+      <svg class="elevation" viewBox="0 0 168 210" aria-hidden="true">
+        <g fill="none" stroke="currentColor" stroke-linejoin="miter" stroke-linecap="square">
+          <path class="datum" stroke-width="1.6" d="M8 192 H160"/>
+          <path class="outline" stroke-width="1.7" d="M48 18 H140 V192 H48 Z"/>
+          <path class="outline" stroke-width="1.7" d="M26 78 H48 V192 H26 Z"/>
+          <path class="stairs" stroke-width="1.3" d="M30 90 H44 L30 104 H44 L30 118 H44 L30 132 H44 L30 146 H44 L30 160 H44 L30 174 H44"/>
+          <path class="floors" stroke-width="1.15" d="M48 40 H140 M48 62 H140 M48 84 H140 M48 106 H140 M48 128 H140 M48 150 H140 M48 172 H140 M94 18 V192"/>
+          <g class="openings" stroke-width="1.15">
+            <rect x="58" y="46" width="14" height="10"/>
+            <rect x="78" y="46" width="12" height="10"/>
+            <rect x="112" y="46" width="16" height="10"/>
+            <rect x="58" y="68" width="14" height="10"/>
+            <rect x="78" y="68" width="12" height="10"/>
+            <rect x="112" y="68" width="16" height="10"/>
+            <rect x="58" y="112" width="14" height="10"/>
+            <rect x="78" y="112" width="12" height="10"/>
+            <rect x="112" y="112" width="16" height="10"/>
+            <rect x="58" y="156" width="14" height="10"/>
+            <rect x="78" y="156" width="12" height="10"/>
+            <rect x="112" y="156" width="16" height="10"/>
+          </g>
+        </g>
+      </svg>
+      <div class="title-copy">
+        <h1>Path to Power BI</h1>
+      </div>
+      <dl class="block">
+        <div><dt>Sheet</dt><dd>08</dd></div>
+        <div><dt>Date</dt><dd>13 Oct 2026</dd></div>
+        <div><dt>Status</dt><dd>Later work</dd></div>
+        <div><dt>Step</dt><dd>04</dd></div>
+      </dl>
+    </header>
+    <main id="content">
+      <div class="note-block">
+        <p>Power BI is workflow step 04. It starts after Report 07 closes CDE setup, and after a raw copy, a clean layer, and a SQL model exist. The reporting source for this practice project is the Snowdon issue workbook, plus a Forma files export if the account can produce one.</p>
+      </div>
+
+      <h2>1. Where step 04 sits</h2>
+      <div class="schedule">
+        <table>
+          <thead><tr><th>Chart step</th><th>Name</th><th>Meaning for this project</th></tr></thead>
+          <tbody>
+            <tr><td>−7</td><td>CDE setup</td><td>Current step. Finish it with Report 07 before any pipeline folder is created.</td></tr>
+            <tr><td>01</td><td>Raw data preserved</td><td>An unchanged copy of the issue workbook, and a Files log export if Forma provides one.</td></tr>
+            <tr><td>02</td><td>Python cleaning and validation</td><td>Profile, standardise, and separate raw values from derived values.</td></tr>
+            <tr><td>03</td><td>Structured SQL database</td><td>Issue facts at one row per issue ID. Document facts only from a real files export.</td></tr>
+            <tr><td>04</td><td>Power BI reporting</td><td>Executive and issue pages. A document page only when document rows exist.</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="note">Chart steps 0 and the public RFI workbook belong to a separate procurement register. This path uses Snowden Towers Sample Issue Summary.xlsx. Three issue rows typed RFI remain rows in that workbook.</p>
+
+      <h2>2. Sequence</h2>
+      <ol class="steps">
+        <li>
+          <strong>Preserve raw inputs.</strong>
+          After the document register exists, create <code>snowdon_analytics/data/raw/</code> and copy the issue workbook there unchanged. If Forma exports a files log or an issues list, save that export beside it. Record file name, retrieval time, and source platform.
+        </li>
+        <li>
+          <strong>Clean in Python, in a separate layer.</strong>
+          Read the Issues sheet. Keep original columns in the raw layer. Add <code>source_file</code>, <code>source_sheet</code>, and <code>ingestion_timestamp</code> as ingestion metadata. Standardise dates, identifiers, and blanks only in the clean layer. Write failed rows to a rejection list. Load the Overview sheet on its own. It is a cover, not 289 issue facts.
+        </li>
+        <li>
+          <strong>Check the raw file against Report 06 before modelling.</strong>
+          Expect 289 issue rows, 289 unique IDs, status counts from Open 148 through In review 3, and the fill rates already recorded for due date, closed date, description, root cause, and location.
+        </li>
+        <li>
+          <strong>Model only tables the columns can fill.</strong>
+          See the table below. Skip review-event and version facts until an export contains those histories.
+        </li>
+        <li>
+          <strong>Build Power BI on the SQL tables.</strong>
+          Reconcile every published total to a SQL query and to the 289 source rows.
+        </li>
+      </ol>
+
+      <h2>3. Folders, when the pipeline starts</h2>
+      <pre>snowdon_analytics/
+├── data/
+│   ├── raw/
+│   ├── staged/
+│   └── curated/
+├── scripts/
+├── sql/
+├── powerbi/
+├── validation/
+└── docs/</pre>
+
+      <h2>4. SQL tables</h2>
+      <div class="schedule">
+        <table>
+          <thead><tr><th>Table</th><th>Grain</th><th>Include when</th></tr></thead>
+          <tbody>
+            <tr><td><code>raw_issues</code></td><td>One exported issue row</td><td>The issue workbook is copied to raw.</td></tr>
+            <tr><td><code>fact_issues</code></td><td>One issue per ID</td><td>The 289 IDs stay unique after cleaning.</td></tr>
+            <tr><td><code>dim_status</code></td><td>One status label</td><td>Status is present on every row.</td></tr>
+            <tr><td><code>dim_category</code></td><td>One category label</td><td>Category is present on every row.</td></tr>
+            <tr><td><code>dim_date</code></td><td>One calendar date</td><td>Created on, and any other date that survives conversion.</td></tr>
+            <tr><td><code>raw_documents</code> / <code>fact_documents</code></td><td>One document row</td><td>A Forma files export exists. The hand-written register can be described in the case study. It is not a substitute extract.</td></tr>
+            <tr><td><code>fact_document_versions</code></td><td>One version</td><td>Version history is exported.</td></tr>
+            <tr><td><code>fact_reviews</code></td><td>One review event</td><td>Review history is exported.</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>5. Measures that match this workbook</h2>
+      <ul>
+        <li>Total issues, and counts by the nine status labels.</li>
+        <li>Counts by category, type, assignee, and company.</li>
+        <li>Issues with a due date, and issues with a location.</li>
+        <li>Created-on trend after the Excel serials are converted and checked.</li>
+      </ul>
+      <p>Closed and Completed are separate status labels (11 rows each). Closed at is filled on 14 rows, so a resolution-time measure waits until those two fields are defined against each other. Overdue stays out until a due date and a status rule are written down and tested.</p>
+
+      <h2>6. Power BI pages</h2>
+      <div class="schedule">
+        <table>
+          <thead><tr><th>Page</th><th>Contents</th></tr></thead>
+          <tbody>
+            <tr><td>Executive</td><td>289 issues, status composition, category filter, created-on trend if the dates check out.</td></tr>
+            <tr><td>Issues</td><td>Status, category, type, assignee, location, and a row-level table with the issue ID.</td></tr>
+            <tr><td>Documents</td><td>File type and the register fields, only after a files export is in the model.</td></tr>
+            <tr><td>Lineage</td><td>Source file name, ingestion time, and the validation totals from Report 06.</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>7. Publish checks</h2>
+      <ul>
+        <li>Raw row count equals 289 and equals <code>fact_issues</code>.</li>
+        <li>Power BI status totals match the Report 06 status table.</li>
+        <li>Relationships do not multiply issue rows.</li>
+        <li>Blank location, description, root cause, and closed date stay blank in the visuals.</li>
+        <li>The page states the trial limits and the sample-project source.</li>
+      </ul>
+
+      <footer>
+        <span>Snowdon Towers · Report 08 · Pipeline not started.</span>
+        <a href="index.html">Back to all reports</a>
+      </footer>
+    </main>
+    <div class="course course-foot" aria-hidden="true"></div>
+  </article>
+</body>
+</html>
