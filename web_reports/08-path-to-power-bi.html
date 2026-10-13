@@ -149,15 +149,21 @@
         <li>Issues with a due date, and issues with a location.</li>
         <li>Created-on trend after the Excel serials are converted and checked.</li>
       </ul>
-      <p>Closed and Completed are separate status labels (11 rows each). Closed at is filled on 14 rows, so a resolution-time measure waits until those two fields are defined against each other. Overdue stays out until a due date and a status rule are written down and tested.</p>
+      <p>Closed and Completed are separate status labels (11 rows each). Closed at is filled on 14 rows, so a resolution-time measure waits until those two fields are defined against each other. The published overdue rule is on the <a href="08-8-lifecycle.html">lifecycle</a> page.</p>
 
       <h2>6. Power BI pages</h2>
+      <p>The published pages are <a href="08-8-overview.html">Issue Executive Overview</a>, <a href="08-8-lifecycle.html">Issue Lifecycle &amp; Overdue Monitoring</a>, <a href="08-8-safety.html">Issue Category, Type &amp; Safety Analysis</a>, and <a href="08-8-register.html">Detailed Issue Register &amp; Data Quality</a>. <a href="https://app.powerbi.com/view?r=eyJrIjoiZGQ3MjYzNDgtYzlkNC00MDQ5LTk4MjAtOGMxNjI2YjM5YmYzIiwidCI6ImJlOTdiY2NhLWEzZTItNDc4Yy1iMWM1LWQ5YTRkMWI2NTY3YyJ9&amp;pageName=df33737c27178e15309a">Open the overview in Power BI</a>. <a href="https://app.powerbi.com/view?r=eyJrIjoiZGQ3MjYzNDgtYzlkNC00MDQ5LTk4MjAtOGMxNjI2YjM5YmYzIiwidCI6ImJlOTdiY2NhLWEzZTItNDc4Yy1iMWM1LWQ5YTRkMWI2NTY3YyJ9&amp;pageName=ebcb25e8f144020ce462">Open the lifecycle page in Power BI</a>. <a href="https://app.powerbi.com/view?r=eyJrIjoiZGQ3MjYzNDgtYzlkNC00MDQ5LTk4MjAtOGMxNjI2YjM5YmYzIiwidCI6ImJlOTdiY2NhLWEzZTItNDc4Yy1iMWM1LWQ5YTRkMWI2NTY3YyJ9&amp;pageName=a6fca69092a1f0367802">Open the safety page in Power BI</a>. <a href="https://app.powerbi.com/view?r=eyJrIjoiZGQ3MjYzNDgtYzlkNC00MDQ5LTk4MjAtOGMxNjI2YjM5YmYzIiwidCI6ImJlOTdiY2NhLWEzZTItNDc4Yy1iMWM1LWQ5YTRkMWI2NTY3YyJ9&amp;pageName=429166e6151eb73c92eb">Open the register in Power BI</a>. A plain-language reading of those four pages is the <a href="08-8-conclusion.html">conclusion</a>.</p>
       <div class="schedule">
         <table>
           <thead><tr><th>Page</th><th>Contents</th></tr></thead>
           <tbody>
             <tr><td>Executive</td><td>289 issues, status composition, category filter, created-on trend if the dates check out.</td></tr>
             <tr><td>Issues</td><td>Status, category, type, assignee, location, and a row-level table with the issue ID.</td></tr>
+            <tr><td>Overview</td><td>Published Issue Executive Overview. Year slicer, five cards, created-on, status, and category.</td></tr>
+            <tr><td>Lifecycle</td><td>Published Issue Lifecycle &amp; Overdue Monitoring. Due group, overdue by status and category, and average unresolved age.</td></tr>
+            <tr><td>Safety</td><td>Published Issue Category, Type &amp; Safety Analysis. Safety cards, top categories, top types, and safety issues by month.</td></tr>
+            <tr><td>Register</td><td>Published Detailed Issue Register &amp; Data Quality. Blank fields, closure-date exceptions, and the filterable issue table.</td></tr>
+            <tr><td>Conclusion</td><td>Plain-language reading of the four published pages. Finished, overdue, safety, and the gaps in place and date.</td></tr>
             <tr><td>Documents</td><td>File type and the register fields, only after a files export is in the model.</td></tr>
             <tr><td>Lineage</td><td>Source file name, ingestion time, and the validation totals from Report 06.</td></tr>
           </tbody>

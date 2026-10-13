@@ -252,6 +252,11 @@ def main() -> None:
         f"""      <nav class="subsheets pages" aria-label="Report pages">
         <a href="08-8-executive.html" aria-current="page">Executive</a>
         <a href="08-8-issues.html">Issues</a>
+        <a href="08-8-overview.html">Overview</a>
+        <a href="08-8-lifecycle.html">Lifecycle</a>
+        <a href="08-8-safety.html">Safety</a>
+        <a href="08-8-register.html">Register</a>
+        <a href="08-8-conclusion.html">Conclusion</a>
       </nav>
       <div class="note-block"><p>Source file <code>Snowden Towers Sample Issue Summary.xlsx</code>, ingested 2026-10-13T17:38:40+11:00. Measures recorded 2026-10-13T17:38:41+11:00. Resolution time and overdue are not on this page.</p></div>
       <div class="filters"><label>Category <select id="category"><option value="All">All categories</option>{options(categories)}</select></label></div>
@@ -296,6 +301,11 @@ def main() -> None:
         f"""      <nav class="subsheets pages" aria-label="Report pages">
         <a href="08-8-executive.html">Executive</a>
         <a href="08-8-issues.html" aria-current="page">Issues</a>
+        <a href="08-8-overview.html">Overview</a>
+        <a href="08-8-lifecycle.html">Lifecycle</a>
+        <a href="08-8-safety.html">Safety</a>
+        <a href="08-8-register.html">Register</a>
+        <a href="08-8-conclusion.html">Conclusion</a>
       </nav>
       <div class="note-block"><p>Source file <code>Snowden Towers Sample Issue Summary.xlsx</code>, ingested 2026-10-13T17:38:40+11:00. Assignee is Autodesk on every row. A blank location stays blank.</p></div>
       <div class="filters">

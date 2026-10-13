@@ -235,6 +235,15 @@ h1 {
   font-size: 1rem;
   color: var(--ink-soft);
 }
+.conclusion mark {
+  background-color: var(--site);
+  color: var(--ink);
+  padding: 0.02em 0.18em;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+  print-color-adjust: exact;
+  -webkit-print-color-adjust: exact;
+}
 
 .block {
   margin: 0.2rem 0 0;
@@ -389,6 +398,18 @@ td.num, th.num {
 }
 table.steps td:first-child,
 table.steps th:first-child { white-space: nowrap; width: 6.2rem; }
+table.guide td:last-child,
+table.guide th:last-child { white-space: nowrap; width: 1%; }
+table.guide td,
+table.guide th,
+table.terms td,
+table.terms th,
+table.gaps td,
+table.gaps th { overflow-wrap: normal; }
+table.terms td:first-child,
+table.terms th:first-child,
+table.terms td:last-child,
+table.terms th:last-child { white-space: nowrap; width: 1%; }
 
 code {
   font-family: "IBM Plex Mono", ui-monospace, monospace;

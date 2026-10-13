@@ -1,0 +1,56 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "flat-type-hierarchy",
+        "value": "*",
+        "files": [
+          "web_reports/08-7-measures.html",
+          "web_reports/08-8-executive.html",
+          "web_reports/08-8-overview.html",
+          "web_reports/08-path-to-power-bi.html"
+        ],
+        "createdAt": "2026-10-13T09:59:08.930Z",
+        "reason": "Agent: CLI detect finds no flat type hierarchy; the sheet scale is 4rem, 2.2rem, 1.5rem, and 1rem"
+      },
+      {
+        "rule": "flat-type-hierarchy",
+        "value": "*",
+        "files": [
+          "web_reports/08-8-lifecycle.html"
+        ],
+        "createdAt": "2026-10-13T10:06:21.663Z",
+        "reason": "Agent: same false positive as the overview page; CLI detect finds no flat type hierarchy and the sheet scale is 4rem, 2.2rem, 1.5rem, and 1rem"
+      },
+      {
+        "rule": "flat-type-hierarchy",
+        "value": "*",
+        "files": [
+          "web_reports/08-8-safety.html"
+        ],
+        "createdAt": "2026-10-13T10:10:06.120Z",
+        "reason": "Agent: same false positive as the overview and lifecycle pages; the shared sheet scale is 4rem, 2.2rem, 1.5rem, and 1rem"
+      },
+      {
+        "rule": "flat-type-hierarchy",
+        "value": "*",
+        "files": [
+          "web_reports/08-8-register.html"
+        ],
+        "createdAt": "2026-10-13T10:12:47.932Z",
+        "reason": "Agent: same false positive as the other Power BI report pages; the shared sheet scale is 4rem, 2.2rem, 1.5rem, and 1rem"
+      },
+      {
+        "rule": "flat-type-hierarchy",
+        "value": "*",
+        "files": [
+          "web_reports/08-8-conclusion.html"
+        ],
+        "createdAt": "2026-10-13T10:17:17.297Z",
+        "reason": "Agent: same false positive as the other Power BI report pages; the shared sheet scale is 4rem, 2.2rem, 1.5rem, and 1rem"
+      }
+    ]
+  }
+}
