@@ -1,0 +1,11 @@
+excel_cell,value,value_kind,source_file,source_sheet,ingestion_timestamp
+B2,Sample Project,text,Snowden Towers Sample Issue Summary.xlsx,Overview,2026-10-13T17:38:40+11:00
+B3,Issue summary,text,Snowden Towers Sample Issue Summary.xlsx,Overview,2026-10-13T17:38:40+11:00
+B4,Issue summary,text,Snowden Towers Sample Issue Summary.xlsx,Overview,2026-10-13T17:38:40+11:00
+B7,Created on,text,Snowden Towers Sample Issue Summary.xlsx,Overview,2026-10-13T17:38:40+11:00
+B8,Created by,text,Snowden Towers Sample Issue Summary.xlsx,Overview,2026-10-13T17:38:40+11:00
+E8,Jonathan Hand (Apex Program Management),text,Snowden Towers Sample Issue Summary.xlsx,Overview,2026-10-13T17:38:40+11:00
+B9,Total items,text,Snowden Towers Sample Issue Summary.xlsx,Overview,2026-10-13T17:38:40+11:00
+E9,289,number,Snowden Towers Sample Issue Summary.xlsx,Overview,2026-10-13T17:38:40+11:00
+B10,Sorted by,text,Snowden Towers Sample Issue Summary.xlsx,Overview,2026-10-13T17:38:40+11:00
+E10,ID (Descending),text,Snowden Towers Sample Issue Summary.xlsx,Overview,2026-10-13T17:38:40+11:00

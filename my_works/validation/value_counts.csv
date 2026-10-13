@@ -1,0 +1,183 @@
+excel_header,header_occurrence,sql_name,value,rows
+Status,1,status,Open,148
+Status,1,status,In dispute,51
+Status,1,status,Draft,46
+Status,1,status,Closed,11
+Status,1,status,Completed,11
+Status,1,status,In progress,7
+Status,1,status,Pending,7
+Status,1,status,Not approved,5
+Status,1,status,In review,3
+Category,1,category,Safety,72
+Category,1,category,Punch List,55
+Category,1,category,Concrete Crew,50
+Category,1,category,Admin Insurance,33
+Category,1,category,Commissioning,19
+Category,1,category,Design,16
+Category,1,category,Observation,14
+Category,1,category,Change Management,9
+Category,1,category,Coordination,6
+Category,1,category,EPC Engineering Review,5
+Category,1,category,Quality,3
+Category,1,category,Due Diligence,1
+Category,1,category,Earthwork,1
+Category,1,category,Fabrication,1
+Category,1,category,General,1
+Category,1,category,Installation,1
+Category,1,category,Life Safety - Design,1
+Category,1,category,XL Safety,1
+Type,1,type,Safety Infraction,71
+Type,1,type,COI,33
+Type,1,type,Punch List,31
+Type,1,type,Safety,21
+Type,1,type,Architectural Punch List,20
+Type,1,type,Quality,15
+Type,1,type,Design,14
+Type,1,type,Inspection,11
+Type,1,type,Design Conflict,10
+Type,1,type,Commissioning,6
+Type,1,type,Mechanical Equipment CX,6
+Type,1,type,30 Review,5
+Type,1,type,Finish,5
+Type,1,type,Clash,4
+Type,1,type,Contractor Punch List,4
+Type,1,type,Internal T&M,4
+Type,1,type,Observation,4
+Type,1,type,Small Works Handoff,4
+Type,1,type,RFI,3
+Type,1,type,Subcontractor T&M,3
+Type,1,type,Coordination,2
+Type,1,type,Owner T&M Directive,2
+Type,1,type,Building Code,1
+Type,1,type,Client Feedback,1
+Type,1,type,Due Diligence Flag,1
+Type,1,type,General,1
+Type,1,type,Incident,1
+Type,1,type,Life Safety - Design,1
+Type,1,type,Misc,1
+Type,1,type,Potholing - Gas Line,1
+Type,1,type,Rack Install,1
+Type,1,type,Steel Bid,1
+Type,1,type,Toolbox Meeting,1
+Assigned to,1,assigned_to,Autodesk,289
+Company,1,company,Autodesk,289
+Watchers,1,watchers,Autodesk,289
+Created by,1,created_by,Autodesk,289
+Location,1,location,00 FIRST - FINISH FLOOR,9
+Location,1,location,05 ROOF,9
+Location,1,location,01 FIRST - FINISH FLOOR,5
+Location,1,location,01 FIRST - FINISH FLOOR > E-125,5
+Location,1,location,SUBSTRUCTURE,5
+Location,1,location,01 FIRST - FINISH FLOOR > E-124,4
+Location,1,location,03 THIRD - FINISH FLOOR,4
+Location,1,location,04 FOURTH - FINISH FLOOR,4
+Location,1,location,04 FOURTH - FINISH FLOOR > W-421,3
+Location,1,location,00 FIRST - FINISH FLOOR > W-110,2
+Location,1,location,01 FIRST - FINISH FLOOR > E-102,2
+Location,1,location,01 FIRST - FINISH FLOOR > E-106,2
+Location,1,location,01 FIRST - FINISH FLOOR > E-129,2
+Location,1,location,01 FIRST - FINISH FLOOR > E-145,2
+Location,1,location,02 SECOND - FINISH FLOOR,2
+Location,1,location,02 SECOND - FINISH FLOOR > W-224,2
+Location,1,location,04 FOURTH - FINISH FLOOR > W-418,2
+Location,1,location,00 BASEMENT,1
+Location,1,location,00 BASEMENT > Parking Level 1,1
+Location,1,location,00 FIRST - FINISH FLOOR > E-102,1
+Location,1,location,01 FIRST - FINISH FLOOR > E-101,1
+Location,1,location,01 FIRST - FINISH FLOOR > E-104,1
+Location,1,location,01 FIRST - FINISH FLOOR > E-113,1
+Location,1,location,01 FIRST - FINISH FLOOR > E-123,1
+Location,1,location,01 FIRST - FINISH FLOOR > E-134,1
+Location,1,location,02 SECOND - FINISH FLOOR > W-222,1
+Location,1,location,03 THIRD - FINISH FLOOR > E-325,1
+Location,1,location,03 THIRD - FINISH FLOOR > E-326,1
+Location,1,location,03 THIRD - FINISH FLOOR > E-330,1
+Location,1,location,03 THIRD - FINISH FLOOR > W-318,1
+Location,1,location,04 FOURTH - FINISH FLOOR > E-411,1
+Location,1,location,04 FOURTH - FINISH FLOOR > E-430,1
+Location,1,location,New Area,1
+Location,1,location,SUBSTRUCTURE > ZONE 2,1
+Location details,1,location_details,Base of Column G14,1
+Location details,1,location_details,Conference Room Area,1
+Location details,1,location_details,FIrst Floor lobby east wall,1
+Location details,1,location_details,GL-A1,1
+Location details,1,location_details,Overlapping waterline at GL - 3 and GL - A,1
+Location details,1,location_details,Roof north facing,1
+Location details,1,location_details,SW Corner,1
+Location details,1,location_details,West Side of Building,1
+Location details,1,location_details,West facing interior wall,1
+Location details,1,location_details,free text,1
+Root cause,1,root_cause,Equipment - Improper equipment,50
+Root cause,1,root_cause,Human - Human error,30
+Root cause,1,root_cause,Construction Defects,4
+Root cause,1,root_cause,Design Deficiency,4
+Root cause,1,root_cause,Design Coordination,3
+Root cause,1,root_cause,Poor Craftsmanship,3
+Root cause,1,root_cause,Wear and Tear,3
+Root cause,1,root_cause,Constructability,2
+Root cause,1,root_cause,Impact Damage,2
+Root cause,1,root_cause,Inadequate Training,2
+Root cause,1,root_cause,Poor Construction,2
+Root cause,1,root_cause,Bad Site Survey,1
+Root cause,1,root_cause,Code Compliance,1
+Root cause,1,root_cause,Communication,1
+Root cause,1,root_cause,Coordination,1
+Root cause,1,root_cause,Engineering Bust,1
+Root cause,1,root_cause,Housekeeping,1
+Root cause,1,root_cause,Human - Failed to identify unsafe condition,1
+Root cause,1,root_cause,Human - Lack of coordination,1
+Root cause,1,root_cause,Management - Lack of procedure,1
+Root cause,1,root_cause,Management - Lack of protective safety equipment,1
+Root cause,1,root_cause,Material - Wrong material,1
+Root cause,1,root_cause,Owner Change,1
+Root cause,1,root_cause,Trade Damage,1
+Published,1,published,Published,288
+Published,1,published,Unpublished,1
+Closed by,1,closed_by,"John Tymkowicz
+Autodesk",4
+Closed by,1,closed_by,"Mark Mergenschroer
+Owners Inc",2
+Closed by,1,closed_by,"Ali Atabey
+Autodesk",1
+Closed by,1,closed_by,"Austin Ehlert
+ACS-TSE-Construction",1
+Closed by,1,closed_by,"Emmett Smith
+Autodesk",1
+Closed by,1,closed_by,"Helina Gebru
+Autodesk",1
+Closed by,1,closed_by,Lisa Chen,1
+Closed by,1,closed_by,"Luke Hester
+ACS-TSE-Construction",1
+Closed by,1,closed_by,"Soroor Zamani
+ACS-TSE-Construction",1
+Closed by,1,closed_by,Yaara Haneman,1
+Closed at,1,closed_at,45944.639114583333,3
+Closed at,1,closed_at,45295.788504814816,1
+Closed at,1,closed_at,45322.73195814815,1
+Closed at,1,closed_at,45778.732086574077,1
+Closed at,1,closed_at,45835.641791678237,1
+Closed at,1,closed_at,45855.749835717594,1
+Closed at,1,closed_at,45944.640529351847,1
+Closed at,1,closed_at,45944.892320300925,1
+Closed at,1,closed_at,45964.623582754633,1
+Closed at,1,closed_at,45964.623912152776,1
+Closed at,1,closed_at,46135.809365300927,1
+Closed at,1,closed_at,46218.372043541662,1
+Additional Comments,1,additional_comments,Add comments here,1
+Additional Comments,1,additional_comments,Image quality prevents identification of construction issues; retake with clear focus.,1
+Additional Comments,1,additional_comments,Repair the hole in the wall and restore the surface to match the surrounding finish.,1
+Additional Comments,1,additional_comments,Wall damage is visible below the window and should be repaired to maintain finish quality.,1
+Areas Affected,1,areas_affected,Quality,7
+Areas Affected,1,areas_affected,Safety,2
+Areas Affected,1,areas_affected,Cost,1
+Did you Link an Asset? - You should link an asset,1,linked_asset,YES,3
+Did you Link an Asset? - You should link an asset,1,linked_asset,NO,1
+Project Task Code,1,project_task_code,1278124678512,1
+Project Task Code,1,project_task_code,12a4f5ad,1
+Project Task Code,1,project_task_code,deijubwcuih,1
+Review Status,1,review_status,Incomplete,3
+Warranty Info,1,warranty_info,456,2
+Warranty Info,1,warranty_info,6 months,1
+Warranty Number,1,warranty_number,123,2
+Warranty Number,1,warranty_number,12345,1
+Warranty Number,1,warranty_number,1382764187,1

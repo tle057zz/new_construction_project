@@ -1,0 +1,54 @@
+excel_column,excel_header,header_occurrence,sql_name,nonblank_values,distinct_nonblank,number_cells,text_cells,note
+1,ID,1,id,289,289,0,289,
+2,Title,1,title,289,101,0,289,
+3,Status,1,status,289,9,0,289,
+4,Category,1,category,289,18,0,289,
+5,Type,1,type,289,33,0,289,
+6,Description,1,description,132,109,0,132,
+7,Assigned to,1,assigned_to,289,1,0,289,
+8,Company,1,company,289,1,0,289,
+9,Watchers,1,watchers,289,1,0,289,
+10,Created by,1,created_by,289,1,0,289,
+11,Created on,1,created_on,289,285,289,0,Excel serial number. Not converted.
+12,Due date,1,due_date,242,88,242,47,Mixed numeric serials and text. Blank text is not a value. Not converted.
+13,Start date,1,start_date,104,50,104,185,Mixed numeric serials and text. Blank text is not a value. Not converted.
+14,Location,1,location,81,34,0,81,
+15,Location details,1,location_details,10,10,0,11,
+16,Placement,1,placement,0,0,0,1,Header is present. No non-blank values.
+17,Root cause,1,root_cause,118,24,0,118,
+18,Published,1,published,289,2,0,289,
+19,Updated by,1,updated_by,0,0,0,0,Header is present. No non-blank values.
+20,Updated on,1,updated_on,289,137,289,0,Excel serial number. Not converted.
+21,Closed by,1,closed_by,14,10,0,289,
+22,Closed at,1,closed_at,14,12,14,275,Mixed numeric serials and text. Blank text is not a value. Not converted.
+23,Comments,1,comments,44,44,0,289,
+24,Additional Comments,1,additional_comments,4,4,0,253,
+25,Areas Affected,1,areas_affected,10,3,0,244,
+26,Building Element,1,building_element,0,0,0,288,Header is present. No non-blank values.
+27,Cost Impact?,1,cost_impact,0,0,0,273,Header is present. No non-blank values.
+28,Date Received,1,date_received,0,0,0,234,Header is present. No non-blank values.
+29,Defect,1,defect,0,0,0,270,Header is present. No non-blank values.
+30,Did you Link an Asset? - You should link an asset,1,linked_asset,4,2,0,274,
+31,Facilities Team Review Status,1,facilities_team_review_status,0,0,0,285,Header is present. No non-blank values.
+32,Hyperlink,1,hyperlink_1,0,0,0,269,Header is present. No non-blank values.
+33,Hyperlink,2,hyperlink_2,0,0,0,289,Header is present. No non-blank values.
+34,Install Date,1,install_date,0,0,0,214,Header is present. No non-blank values.
+35,Interface Topic,1,interface_topic,0,0,0,275,Header is present. No non-blank values.
+36,Lessons Learned Candidate?,1,lessons_learned_candidate,0,0,0,288,Header is present. No non-blank values.
+37,Multi-select dropdown,1,multi_select_dropdown,0,0,0,284,Header is present. No non-blank values.
+38,Numeric,1,numeric_field,0,0,0,279,Header is present. No non-blank values.
+39,Part Number,1,part_number,0,0,0,266,Header is present. No non-blank values.
+40,Project Task Code,1,project_task_code,3,3,1,286,Mixed numeric serials and text. Blank text is not a value. Not converted.
+41,Quality Issue with Cost,1,quality_issue_with_cost,0,0,0,270,Header is present. No non-blank values.
+42,Review Status,1,review_status,3,1,0,237,
+43,Risk Level,1,risk_level,0,0,0,267,Header is present. No non-blank values.
+44,Row,1,row_label,0,0,0,275,Header is present. No non-blank values.
+45,SC Acknowledged,1,sc_acknowledged,0,0,0,288,Header is present. No non-blank values.
+46,Seat,1,seat,0,0,0,275,Header is present. No non-blank values.
+47,Serial Number,1,serial_number_1,0,0,0,239,Header is present. No non-blank values.
+48,Serial Number,2,serial_number_2,0,0,0,266,Header is present. No non-blank values.
+49,Ship Date,1,ship_date,0,0,0,270,Header is present. No non-blank values.
+50,Size,1,size_text,0,0,0,275,Header is present. No non-blank values.
+51,Warranty Info,1,warranty_info,3,2,2,263,Mixed numeric serials and text. Blank text is not a value. Not converted.
+52,Warranty Number,1,warranty_number,4,3,4,266,Mixed numeric serials and text. Blank text is not a value. Not converted.
+53,Work Order #,1,work_order_number,0,0,0,252,Header is present. No non-blank values.

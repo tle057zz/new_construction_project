@@ -1,0 +1,10 @@
+status_id,status
+1,Closed
+2,Completed
+3,Draft
+4,In dispute
+5,In progress
+6,In review
+7,Not approved
+8,Open
+9,Pending

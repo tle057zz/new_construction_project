@@ -1,0 +1,34 @@
+type_id,type
+1,30 Review
+2,Architectural Punch List
+3,Building Code
+4,COI
+5,Clash
+6,Client Feedback
+7,Commissioning
+8,Contractor Punch List
+9,Coordination
+10,Design
+11,Design Conflict
+12,Due Diligence Flag
+13,Finish
+14,General
+15,Incident
+16,Inspection
+17,Internal T&M
+18,Life Safety - Design
+19,Mechanical Equipment CX
+20,Misc
+21,Observation
+22,Owner T&M Directive
+23,Potholing - Gas Line
+24,Punch List
+25,Quality
+26,RFI
+27,Rack Install
+28,Safety
+29,Safety Infraction
+30,Small Works Handoff
+31,Steel Bid
+32,Subcontractor T&M
+33,Toolbox Meeting

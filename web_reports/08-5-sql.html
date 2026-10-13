@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SQL</title>
+  <link rel="stylesheet" href="reports.css">
+  <style>
+    h1 { font-size: 4rem; line-height: 0.92; }
+    h2 { font-size: 2.2rem; line-height: 1; }
+    h3 { font-size: 1.5rem; }
+    p, li, td, th, dd, figcaption, .lede { font-size: 1rem; }
+    th { overflow-wrap: normal; }
+    
+  </style>
+</head>
+<body>
+  <a class="skip" href="#report">Skip to the SQL record</a>
+  <article class="sheet">
+    <div class="course" aria-hidden="true"></div>
+    <nav class="sheets" aria-label="Reports">
+      <a href="index.html">Index</a>
+      <a href="01-baseline-status.html">Baseline</a>
+      <a href="02-forma-project-structure.html">Project structure</a>
+      <a href="03-project-files-register.html">File register</a>
+      <a href="04-s102-forma-inspection.html">S102 inspection</a>
+      <a href="05-structural-model.html">Structural model</a>
+      <a href="06-issue-workbook.html">Issue workbook</a>
+      <a href="07-finish-cde.html">CDE setup</a>
+      <a href="08-path-to-power-bi.html">Power BI</a>
+    </nav>
+    <nav class="subsheets" aria-label="Analytics steps">
+      <a href="08-path-to-power-bi.html">Path</a>
+      <a href="08-1-lineage.html">1 Lineage</a>
+      <a href="08-2-profile.html">2 Profile</a>
+      <a href="08-3-ingest.html">3 Ingest</a>
+      <a href="08-4-clean.html">4 Clean</a>
+      <a href="08-5-sql.html" aria-current="page">5 SQL</a>
+      <a href="08-6-reconcile.html">6 Reconcile</a>
+      <a href="08-7-measures.html">7 Measures</a>
+      <a href="08-8-executive.html">8 Pages</a>
+      <span>9 Forma export</span>
+      <span>10 Services</span>
+    </nav>
+    <header class="titleblock">
+
+      <svg class="elevation" viewBox="0 0 168 210" aria-hidden="true">
+        <g fill="none" stroke="currentColor" stroke-linejoin="miter" stroke-linecap="square">
+          <path class="datum" stroke-width="1.6" d="M8 192 H160"/>
+          <path class="outline" stroke-width="1.7" d="M48 18 H140 V192 H48 Z"/>
+          <path class="outline" stroke-width="1.7" d="M26 78 H48 V192 H26 Z"/>
+          <path class="stairs" stroke-width="1.3" d="M30 90 H44 L30 104 H44 L30 118 H44 L30 132 H44 L30 146 H44 L30 160 H44 L30 174 H44"/>
+          <path class="floors" stroke-width="1.15" d="M48 40 H140 M48 62 H140 M48 84 H140 M48 106 H140 M48 128 H140 M48 150 H140 M48 172 H140 M94 18 V192"/>
+          <g class="openings" stroke-width="1.15">
+            <rect x="58" y="46" width="14" height="10"/><rect x="78" y="46" width="12" height="10"/><rect x="112" y="46" width="16" height="10"/>
+            <rect x="58" y="68" width="14" height="10"/><rect x="78" y="68" width="12" height="10"/><rect x="112" y="68" width="16" height="10"/>
+            <rect x="58" y="112" width="14" height="10"/><rect x="78" y="112" width="12" height="10"/><rect x="112" y="112" width="16" height="10"/>
+            <rect x="58" y="156" width="14" height="10"/><rect x="78" y="156" width="12" height="10"/><rect x="112" y="156" width="16" height="10"/>
+          </g>
+        </g>
+      </svg>
+      <div class="title-copy">
+        <h1>SQL</h1>
+        <p class="lede">The curated issues are one row per ID. Joining a lookup back to the facts still returns 289 rows.</p>
+      </div>
+      <dl class="block">
+        <div><dt>Step</dt><dd>5</dd></div>
+        <div><dt>Facts</dt><dd>289</dd></div>
+        <div><dt>Tables</dt><dd>6</dd></div>
+        <div><dt>Recorded</dt><dd>13 Oct 2026</dd></div>
+      </dl>
+    </header>
+    <main id="report">
+      <div class="note-block"><p>Regenerated at 2026-10-13T17:38:40+11:00 from <code>my_works/scripts/load_issues.py</code>. The database is <code>my_works/sql/snowdon_issues.sqlite</code>.</p></div>
+      <h2>Tables</h2>
+      <div class="schedule">
+        <table>
+          <thead><tr><th>Table</th><th>Rows</th></tr></thead>
+          <tbody>
+            <tr><td>overview</td><td>10</td></tr>
+            <tr><td>issue_rows</td><td>289</td></tr>
+            <tr><td>fact_issues</td><td>289</td></tr>
+            <tr><td>dim_status</td><td>9</td></tr>
+            <tr><td>dim_category</td><td>18</td></tr>
+            <tr><td>dim_type</td><td>33</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Joins from the facts to status, category, and type each return 289 rows. There is no discipline, document, version, or review table.</p>
+      <footer>
+        <span>Snowdon Towers · SQL · Restored 13 October 2026.</span>
+        <a href="08-path-to-power-bi.html">Back to the path</a>
+      </footer>
+    </main>
+    <div class="course course-foot" aria-hidden="true"></div>
+  </article>
+</body>
+</html>

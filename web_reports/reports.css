@@ -135,6 +135,30 @@ body {
   text-decoration-thickness: 1px;
   text-underline-offset: 0.22em;
 }
+.subsheets {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.9rem;
+  margin: 0;
+  padding: 0.45rem 1.35rem 0.55rem;
+  border-bottom: 1px solid var(--ink);
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.subsheets a,
+.subsheets span { padding: 0.15rem 0; }
+.subsheets a { color: var(--ink); text-decoration: none; }
+.subsheets a:hover { color: var(--brick-deep); }
+.subsheets a[aria-current="page"] {
+  color: var(--brick-deep);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.22em;
+}
+.subsheets span { color: var(--ink-soft); }
 
 .titleblock {
   display: grid;
@@ -410,7 +434,7 @@ figcaption {
 
 @media (max-width: 760px) {
   .sheet { margin: 0.7rem; }
-  .titleblock, main, .sheets { padding-left: 1rem; padding-right: 1rem; }
+  .titleblock, main, .sheets, .subsheets { padding-left: 1rem; padding-right: 1rem; }
   .titleblock { grid-template-columns: 1fr; }
   .elevation { grid-column: 1; grid-row: 1; width: 84px; justify-self: start; }
   .title-copy { grid-column: 1; grid-row: 2; }

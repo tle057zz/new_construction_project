@@ -1,0 +1,35 @@
+check,expected,actual,result
+workbook_rows,289,289,pass
+staged_rows,289,289,pass
+curated_rows,289,289,pass
+issue_rows,289,289,pass
+fact_join_rows,289,289,pass
+workbook_unique_ids,289,289,pass
+staged_unique_ids,289,289,pass
+curated_unique_ids,289,289,pass
+facts_unique_ids,289,289,pass
+ids_match_across_layers,yes,yes,pass
+status_mismatches,0,0,pass
+category_type_mismatches,0,0,pass
+status_Open,148,148,pass
+status_In dispute,51,51,pass
+status_Draft,46,46,pass
+status_Closed,11,11,pass
+status_Completed,11,11,pass
+status_In progress,7,7,pass
+status_Pending,7,7,pass
+status_Not approved,5,5,pass
+status_In review,3,3,pass
+status_total,289,289,pass
+curated_blank_description,157,157,pass
+sql_blank_description,157,157,pass
+curated_blank_location,208,208,pass
+sql_blank_location,208,208,pass
+curated_blank_root_cause,171,171,pass
+sql_blank_root_cause,171,171,pass
+curated_blank_due_date,47,47,pass
+sql_blank_due_date,47,47,pass
+curated_blank_closed_at,275,275,pass
+sql_blank_closed_at,275,275,pass
+sample_1873_created_on,2026-08-03T16:55:53,2026-08-03T16:55:53,pass
+sample_1873_staged_serial,46237.705474537041,46237.705474537041,pass

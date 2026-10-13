@@ -1,0 +1,99 @@
+measure,label,rows
+total,issues,289
+status,Open,148
+status,In dispute,51
+status,Draft,46
+status,Closed,11
+status,Completed,11
+status,In progress,7
+status,Pending,7
+status,Not approved,5
+status,In review,3
+category,Safety,72
+category,Punch List,55
+category,Concrete Crew,50
+category,Admin Insurance,33
+category,Commissioning,19
+category,Design,16
+category,Observation,14
+category,Change Management,9
+category,Coordination,6
+category,EPC Engineering Review,5
+category,Quality,3
+category,Due Diligence,1
+category,Earthwork,1
+category,Fabrication,1
+category,General,1
+category,Installation,1
+category,Life Safety - Design,1
+category,XL Safety,1
+type,Safety Infraction,71
+type,COI,33
+type,Punch List,31
+type,Safety,21
+type,Architectural Punch List,20
+type,Quality,15
+type,Design,14
+type,Inspection,11
+type,Design Conflict,10
+type,Commissioning,6
+type,Mechanical Equipment CX,6
+type,30 Review,5
+type,Finish,5
+type,Clash,4
+type,Contractor Punch List,4
+type,Internal T&M,4
+type,Observation,4
+type,Small Works Handoff,4
+type,RFI,3
+type,Subcontractor T&M,3
+type,Coordination,2
+type,Owner T&M Directive,2
+type,Building Code,1
+type,Client Feedback,1
+type,Due Diligence Flag,1
+type,General,1
+type,Incident,1
+type,Life Safety - Design,1
+type,Misc,1
+type,Potholing - Gas Line,1
+type,Rack Install,1
+type,Steel Bid,1
+type,Toolbox Meeting,1
+assignee,Autodesk,289
+company,Autodesk,289
+with_due_date,filled,242
+with_location,filled,81
+created_month,2023-09,7
+created_month,2023-10,3
+created_month,2023-11,4
+created_month,2023-12,8
+created_month,2024-01,5
+created_month,2024-02,3
+created_month,2024-05,1
+created_month,2024-06,3
+created_month,2024-07,1
+created_month,2024-08,3
+created_month,2024-09,8
+created_month,2024-10,4
+created_month,2024-11,7
+created_month,2024-12,4
+created_month,2025-01,1
+created_month,2025-02,2
+created_month,2025-04,3
+created_month,2025-05,6
+created_month,2025-06,3
+created_month,2025-07,13
+created_month,2025-08,19
+created_month,2025-09,13
+created_month,2025-10,29
+created_month,2025-11,12
+created_month,2025-12,11
+created_month,2026-01,14
+created_month,2026-02,14
+created_month,2026-03,7
+created_month,2026-04,26
+created_month,2026-05,20
+created_month,2026-06,10
+created_month,2026-07,23
+created_month,2026-08,2
